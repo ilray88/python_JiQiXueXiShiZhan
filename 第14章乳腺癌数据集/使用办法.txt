@@ -1,0 +1,5 @@
+#本文使用sklearn.datasets乳腺癌数据集
+
+from sklearn import datasets  # 导入库
+
+cancer = datasets.load_breast_cancer()  # 导入乳腺癌数据
