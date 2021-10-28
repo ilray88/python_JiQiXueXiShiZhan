@@ -1,0 +1,5 @@
+#英文名称为Iris Data Set，使用Sklearn库可以直接下载并导入该数据集
+
+from sklearn import datasets # 导入库
+
+iris = daasets.load_iris() # 导入鸢尾花数据
